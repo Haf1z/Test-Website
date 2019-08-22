@@ -1,0 +1,144 @@
+/*this is what i use to give design to my website */
+body{
+    background-image: url(wavy-dots.png);
+    background-repeat:repeat;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.home-img{
+    width: 300px;
+    height: 300px;
+    display:block;
+    margin:auto;
+}
+#imglogo{
+    width: 25px;
+    height: 25px;
+}
+header h1{
+    font-size: 56px;
+}
+#heading{
+    text-align: center
+}
+
+ul#navs {
+    float: left;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    
+}
+#navs li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+#navs li a.active {
+    background-color: rgb(172, 4, 4);
+    color: rgb(251, 255, 0);
+}
+#navs li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#content{
+    /* margin-left:205px;  */
+    /* for navigation     */
+    /* padding:1px 16px; */
+    float: right;
+    padding: 10px;
+    margin: auto;
+    width: 72%;
+    height: 100%;
+    background: rgb(243, 241, 241);
+    /* min-height: 600px; */
+    /* position: fixed; */
+    
+}
+.content-heading{
+    font-size: 30px;
+
+}
+.pull-right{
+    float:right;
+    clear: both;
+}
+.btn{
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    /* font-size: 12px; */
+
+}
+.btn-add{
+    margin:5px;
+    background: green;
+    color: white;
+}
+.btn-add:hover{
+    background: rgb(0, 88, 0);
+}
+
+.team-list{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+.team-list a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.team-list a li:hover{
+    background: black;
+    color:white;
+}
+
+.team-list li{
+    margin:10px;
+    padding: 10px 20px;
+    background: white;
+    width: auto;
+    text-align: center;
+}
+.striptable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+
+  
+.striptable tr:nth-child(even){background-color: #f2f2f2;}
+  
+.striptable tr:hover {background-color: #ddd;}
+  
+.striptable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+  }
+  .striptable td{
+      font-size: 20px;
+      padding:5px;
+      border:1px solid;
+  }
+  .striptable td a{
+      padding: 4px 4px;
+  }
+  .team-logo{
+    min-width: 200px;
+    height: auto;
+    margin:10px auto;
+    display:block;
+  }
